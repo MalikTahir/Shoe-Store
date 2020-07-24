@@ -1,0 +1,27 @@
+.selectedItem{
+    display: flex;
+    background-color: #f3f3f3;
+    margin: 10px;
+}
+.selectedItem__itemInfo{
+    padding: 20px;
+}
+.selectedItem__name{
+    font-size: 17px;
+    font-weight: 800;
+}
+.selectedItem__image{
+    max-height: 200px;
+    width: 180px;
+    object-fit: contain;
+}
+.selectedItem__rating{
+    display: flex;
+    flex-direction:row;
+}
+.selectedItem__removeButton > button{
+    margin-top: 35px;
+    background-color: #f0c14b;
+    border: 1px solid;
+    border-color: #a88734 #9c7e31 #846a29 ;
+}
