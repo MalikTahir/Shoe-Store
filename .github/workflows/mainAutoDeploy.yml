@@ -43,7 +43,7 @@ jobs:
     - name: installing surge
       run: npm install -g surge
     - name: creating build
-      run: npm run build
+      run: npm build
     - name: deploying on surge
       run: surge --project ./build/ --domain http://miku-shoe-store.surge.sh/ --token ${{secrets.SHOE_TOKEN}}
       
