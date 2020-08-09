@@ -43,7 +43,7 @@ jobs:
     - name: installing surge
       run: npm install -g surge
     - name: creating build
-      run: npm build
+      run: npm run build
       env:
         CI: "" 
     - name: deploying on surge
